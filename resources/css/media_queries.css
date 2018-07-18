@@ -1,0 +1,284 @@
+
+@media only screen and (min-width: 1201px) {
+  .row {
+    max-width: 100%;
+  }
+  .title-box {
+    width: 70%;
+    transform: translate(-45%, -50%);
+  }
+  
+  .title-box h1 {
+    font-size: 200%;
+  }
+  
+    .logo {
+    margin-left: 2%;  
+  }
+  
+  .main-nav {
+    margin-right: 2%;
+  }
+  
+  .section-skill-content-robot,
+  .section-skill-content-iot,
+  .section-skill-content-ether,
+  .section-skill-content-web,
+  .section-skill-content-skills{
+    top: 30%;
+    font-size: 150%;
+  }
+}
+
+
+/* For Big tablets to 1200px.
+ * For Widths smaller than 1140px row.
+ */
+@media only screen and (max-width: 1200px) {
+  .row {
+    max-width: 100%;
+  }
+  
+  header {
+    width: 100%;
+  }
+  
+  .title-box {
+    width: 70%;
+    transform: translate(-40%, -50%);
+  }
+  
+  .title-box h1 {
+    font-size: 180%;
+  }
+  
+  .logo {
+    margin-left: 2%;  
+  }
+  
+  .main-nav {
+    margin-right: 2%;
+  }
+}
+
+/* For device whose screen size is:
+ * 768px <=    < 1024px
+ * It is for small tablets to big tablets.
+ */
+@media only screen and (max-width: 1023px) {
+  .row {
+    max-width: 100%;
+  }  
+  .title-box {
+    transform: translate(-42%, -50%);
+  }
+  
+  .title-box h1 {
+    font-size: 150%;
+  }
+  
+  .logo {
+    margin-left: 5%;
+    float: left;
+  }
+  
+  .main-nav {
+    margin-right: 5%;
+    float: right;
+  }
+  
+  .section-skill-description {
+    margin-top: 12%;
+  }
+  
+  .section-skill-content-robot,
+  .section-skill-content-iot,
+  .section-skill-content-ether,
+  .section-skill-content-web,
+  .section-skill-content-skills{
+    top: 20%;
+    font-size: 120%;
+  }
+}
+
+
+/* For device whose screen size is:
+ * 480px <   < 768px.
+ * It is for small phones and tablets.
+ */
+@media only screen and (max-width: 767px) {
+  
+  .row {
+    margin: 0 auto;
+  }
+  
+  .logo {
+    margin-left: 5%;
+  }
+  
+  .main-nav {
+    margin-right: 5%;
+  }
+  
+  .section-skill-description {
+    margin-top: 7%;
+  }
+  
+  .section-skill-description ul{
+    margin-left: 70px;
+  }
+
+  .section-skill-icon-title {
+    font-size: 20%;
+  }
+  
+  .section-skill-content-skills li {
+    font-size: 70%;
+  }
+  
+  .section-skill-experience {
+    font-size: 70%;
+    margin-top: 1%;
+  }
+  
+  .section-skill-description p,
+  .section-skill-description ul{
+    margin-left: 60px;  
+  }
+
+  .section-skill-experience li {
+    margin: 0;
+  }
+  
+  .section-skill-icon {
+    width:10%;
+    margin-right: 10%;
+  }
+  
+  .section-skill-icon-title {
+    width: 70%;
+    font-size: 100%;
+  }
+  .section-skill-title {
+    width: 85%;
+    float: left;
+  }
+  .section-skill-icon2 {
+    width: 10%;
+    float: right;
+  }
+  
+  .section-skill-content-robot,
+  .section-skill-content-iot,
+  .section-skill-content-ether,
+  .section-skill-content-web{
+    top: 20%;
+    font-size: 120%;
+  }
+
+  .section-skill-content-embedded {
+    top: 1%;
+    font-size: 90%;
+  }
+  
+}
+
+
+/* For device which has the screen resolution
+ * less than or equal to 480 pixels.
+ * It is for small phones.
+ */
+@media only screen and (max-width: 480px) {
+  .row {
+    margin: 0 auto;
+  }
+  
+  .logo {
+    width: 10%;
+    margin-left: 2%;
+  }
+  
+  .main-nav {
+    margin-right: 2%;
+  }
+  
+  .main-nav li {
+    margin-left: 3px;
+    font-size: 81%;
+  }
+  
+  .title-box {
+    transform: translate(-52%, -50%);
+  }
+  
+  .title-box h1 {
+    font-size: 110%;
+  }
+  
+  .author {
+    font-size: 110%;
+  }
+  
+  .author-statement {
+    font-size: 100%;
+  }
+  
+  .section-about-content {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    z-index: -1; 
+  }
+  
+  .doc-box {
+    width: 80%;
+    margin: 0px auto;
+    padding: 10px 10px 0 10px;
+  }
+  
+  .section-docs-statement,
+  .section-projects-statement {
+    width: 80%;
+  }
+  
+  .section-skill-statement {
+    margin-bottom: 0;
+  }
+  .section-skill-experience {
+    font-size: 70%;
+    margin-top: 1%;
+  }
+  
+  .section-skill-experience li {
+    margin: 0;
+  }
+  
+  .section-skill-icon {
+    width:10%;
+  }
+  
+  .section-skill-icon-title {
+    width: 50%;
+  }
+  .section-skill-title {
+    width: 85%;
+    float: left;
+  }
+  .section-skill-icon2 {
+    width: 10%;
+    float: right;
+  }
+  
+  .btn-read-artical {
+    margin: 20px 0;
+  }
+  
+  .section-skill-content-embedded {
+    top: 10%;
+    font-size: 100%;
+  }
+  
+  .section-skill-description {
+    margin-top: 0;
+  }
+}

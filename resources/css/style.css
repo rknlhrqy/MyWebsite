@@ -1,0 +1,597 @@
+/*
+ * Overall settings
+ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: white;
+  
+  color: #555;
+  
+  font-family: 'Lato', 'Arial', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+}
+
+
+#wrapper {
+  overflow: scroll;
+  margin: 0 auto;
+}
+
+
+.clearfix:after {
+  content: "";
+  clear:both;
+  display: block;
+}
+
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+header {
+  background-image: url(../../vendors/img/donald-giannatti-671274-unsplash-min.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+  
+}
+
+section {
+  padding: 80px 0;
+  font-weight: 400;  
+}
+
+h1, h2, h3 {
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+h1 {
+  margin: 0 0 70px 0;
+  color: #fff;
+  font-weight: 300;
+  font-size: 250%;
+  letter-spacing: 4px;
+}
+
+h2 {
+  font-size: 180%;
+  word-spacing: 2px;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+h2:before {
+  display: block;
+  height: 2px;
+  width: 100px;
+  background-color: #0984e3;
+  content: "";
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+h2:after {
+  display: block;
+  height: 2px;
+  width: 100px;
+  background-color: #0984e3;
+  content: "";
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+h3 {
+  font-size: 110%;
+  margin-top: 35px;
+  margin-bottom: 15px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+h3:after {
+    display: block;
+    height: 2px;
+    width: 100px;
+    background-color: #0984e3;
+    content: "";
+    margin: 0 auto;
+    margin-top: 20px    
+}
+
+.link-back-to-top {
+  color: #555;
+  float: right;
+  text-decoration: none;
+  font-size: 80%;
+  display: inline-block;
+  margin: 0 30px;
+  font-style: italic;
+  transition: transform 0.3s, color 0.3s, font-weight 0.3s;
+}
+
+.link-back-to-top:hover,
+.link-back-to-top:active {
+  color: #0984e3;
+  font-weight: 700;
+  transform: scale(1.4);
+}
+
+/*
+ * Header
+ */
+.logo {
+  width: 4%;
+  height: auto;
+  float: left;
+  margin-left: 2%;
+  margin-top: 10px;
+  border: 1px solid transparent;
+  border-radius: 10%;
+}
+
+.header-image-author {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.title-box {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.author {
+  margin: 25px 0;
+  font-size: 150%;
+  color: #fff;
+}
+
+.author-statement {
+  font-size: 120%;
+  color: #fff;
+  font-style: italic;
+}
+/*
+ * Navigation menu
+ */
+.main-nav {
+  float: right;
+  list-style: none;
+  margin-right: 2%;
+  margin-top: 20px;
+}
+
+.main-nav li {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+  padding: 8px 0;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 90%;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+  border-bottom: 2px solid #fff;  
+}
+
+/*
+ * Section About
+ */
+.section-about {
+
+}
+
+.section-about-statement {
+  line-height: 145%;
+  width: 70%;
+  margin-left: 15%;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 145%;
+}
+
+.section-about-box {
+  list-style: none;
+  font-size: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.section-about-box li{
+  position: relative;
+}
+
+.section-about-box li img {
+  display: block;
+  opacity: 1;
+  width: 100%;
+  height: auto;
+  transition: opacity 0.5s;
+  border-radius: 5px;
+}
+
+.section-about-box li img:hover {
+  opacity: 0;
+}
+
+.section-about-content {
+  position: absolute;
+  top: 40%;
+  z-index: -1; 
+}
+
+.special-effect-1,
+.special-effect-2,
+.special-effect-3,
+.special-effect-4,
+.special-effect-5,
+.special-effect-6,
+.special-effect-7,
+.special-effect-8,
+.special-effect-9 {
+  opacity: 0;
+}
+
+.special-effect-1.animated,
+.special-effect-2.animated,
+.special-effect-3.animated,
+.special-effect-4.animated,
+.special-effect-5.animated,
+.special-effect-6.animated,
+.special-effect-7.animated,
+.special-effect-8.animated,
+.special-effect-9.animated {
+  opacity: 1;
+}
+
+/*
+ * Section Skill
+ */
+.section-skill {
+  background-color: #f2f2f2;
+}
+.skill-icon {
+  width: 50px;
+  fill: #0984e3;
+}
+
+.section-skill-statement,
+.section-docs-statement,
+.section-projects-statement {
+  line-height: 145%;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 145%;
+}
+
+.section-skill-experience {
+  list-style: none;
+}
+
+.section-skill-experience li {
+  margin: 40px 0;
+  font-size: 126%;
+}
+
+.section-skill-description {
+  position: relative;
+}
+
+.section-skill-description img {
+  display: block;
+  opacity: 1;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+
+.section-skill-image-skills {
+  filter: brightness(120%);
+}
+
+.section-skill-image-web {
+  filter: brightness(55%);
+}
+
+.section-skill-image-ether {
+  filter: brightness(55%);
+}
+
+.section-skill-image-iot {
+  filter: brightness(60%);
+}
+
+.section-skill-image-robot {
+  filter: brightness(50%);
+}
+
+.section-skill-image-embedded {
+  filter: brightness(50%);
+}
+
+.section-skill-description {
+  position: relative;
+  padding-left: 10px;
+  margin-left: 0;
+}
+.section-skill-description ul {
+  list-style: none;
+  padding-top: 2px;
+  text-align: center;
+  position: absolute;
+  /*top: 13%;*/
+  
+}
+
+.section-skill-description figure a {
+  position: absolute;
+  bottom: 0px;
+  right: 0px
+}
+
+.section-skill-description p,
+.section-skill-description ul{
+  position: absolute;
+  text-align: center;
+  color: white;
+  width: 70%;
+  margin-left: 100px;  
+}
+
+.section-skill-content-robot,
+.section-skill-content-iot,
+.section-skill-content-ether,
+.section-skill-content-web,
+.section-skill-content-skills{
+  /*bottom: 40%;*/
+  top: 10%;
+  font-size: 150%;
+}
+
+.section-skill-content-embedded {
+  bottom: 15%;
+  font-size: 135%;
+}
+
+.section-skill-content li {
+  padding: 3px;
+}
+
+.section-skill-icon {
+  color: #0984e3;
+  padding-right: 7px;
+  font-size: 230%;
+  float: left;
+  vertical-align: middle;
+}
+
+.section-skill-title {
+  padding: 0 10px;
+  padding-top: 5px;
+  vertical-align: middle;
+  transition: border 0.3s, border-radius 0.3s;
+}
+
+.section-skill-title:hover {
+  border: 2px solid #ff8b04;
+  border-radius: 10px;
+}
+
+.section-skill-icon2 {
+  color: #0984e3;
+  font-size: 230%;
+  opacity: 0;
+}
+
+.section-skill-icon-title {
+  float: left;
+  padding-left: 8px;
+  vertical-align: middle;
+}
+
+/*
+ * Section Docs
+ */
+/*
+.section-docs {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../../vendors/img/donald-giannatti-671274-unsplash-min.jpg);
+  background-position: center;
+  background-attachment: fixed;
+}
+*/
+
+.section-docs-header {
+  background-image: linear-gradient(rgba(50, 50, 50, 0.5), rgba(50, 50, 50, 0.5)), url(../../vendors/img/polaromagnet-535800-unsplash-min.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.section-docs-header-image-author {  
+  float: right;
+}
+
+.section-docs-header h2 {
+  color: #fff;
+}
+
+.section-docs-header p {
+  color: #fff;
+}
+
+.section-docs-header h2:after {
+  background-color: #fff;
+}
+/*
+
+.section-docs-header-image-author { 
+  position: absolute;
+  bottom:0;
+  right:0;
+}
+*/
+.doc-box {
+  width: 60%;
+  margin: 10px auto;
+  padding: 20px 20px;
+}
+
+.doc-box p {
+  font-size: 120%;
+  text-align: justify;
+  line-height: 1.2;
+}
+
+.doc-box p span {
+  float: right;
+  font-style: italic;
+  margin-top: 20px;
+  font-size: 70%;
+  font-weight: 700;
+}
+
+.doc-box div:last-child {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+.btn-read-artical {
+  margin: 30px 0;
+  padding: 15px 10px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  color: #0984e3;
+  width: 200px;
+  border: 2px solid #0984e3;
+  border-radius: 200px;
+}
+
+.btn-read-artical:hover,
+.btn-read-artical:active {
+  background-color: #0984e3;
+  color: #fff;
+}
+
+/*
+ * Section Projects
+ */
+.section-projects {
+  background-color: #f2f2f2;
+}
+
+.section-projects-header {
+  background-image: linear-gradient(rgba(7, 208, 184, 0.5), rgba(7, 208, 184, 0.5)), url(../../vendors/img/redd-angelo-269935-unsplash-min.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.section-projects-header-image-author {  
+  float: right;
+}
+
+.section-projects-header h2 {
+  color: #fff;
+}
+
+.section-projects-header p {
+  color: #fff;
+}
+
+.section-projects-header h2:after {
+  background-color: #fff;
+}
+
+/*
+ * Sectopm Posts
+ */
+.section-posts-header {
+  background-image: linear-gradient(rgba(4, 68, 172, 0), rgba(4, 68, 172, 0)), url(../../vendors/img/wes-hicks-497129-unsplash-min.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.section-posts-header-image-author {  
+  float: right;
+}
+
+.section-posts-header h2 {
+  color: #fff;
+}
+
+.section-posts-header p {
+  color: #fff;
+}
+
+.section-posts-header h2:after {
+  background-color: #fff;
+}
+
+/*
+ * Footer
+ */
+footer {
+  background-color: #333;
+  font-size: 70%;
+  padding: 20px;
+}
+
+.footer-copyright {
+  color: #888;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.footer-icon {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  width: auto;
+}
+
+.footer-icon a p {
+  text-decoration: none;
+  color: #888;
+  font-weight: 400;
+  display: inline-block;
+  margin: 0;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.footer-icon a p span {
+  margin-right: 5px;
+}
+
+.footer-icon a p:hover,
+.footer-icon a p:active {
+  color: #0984e3;
+  transform: scale(1.4);
+}
