@@ -508,7 +508,8 @@ h3:after {
 }
 
 .section-projects-header {
-  background-image: linear-gradient(rgba(7, 208, 184, 0.5), rgba(7, 208, 184, 0.5)), url(../../vendors/img/redd-angelo-269935-unsplash-min.jpg);
+  background-image: linear-gradient(rgba(1, 0, 15, 0.19), rgba(1, 0, 15, 0.19)), url(../../vendors/img/redd-angelo-269935-unsplash-min.jpg);
+    
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -534,7 +535,7 @@ h3:after {
  * Sectopm Posts
  */
 .section-posts-header {
-  background-image: linear-gradient(rgba(4, 68, 172, 0), rgba(4, 68, 172, 0)), url(../../vendors/img/wes-hicks-497129-unsplash-min.jpg);
+  background-image: linear-gradient(rgba(0, 97, 255, 0), rgba(0, 97, 255, 0)), url(../../vendors/img/wes-hicks-497129-unsplash-min.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
