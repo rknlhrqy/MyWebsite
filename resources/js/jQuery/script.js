@@ -86,5 +86,13 @@ $(document).ready(function() {
   $('.special-effect-10').waypoint(function (direction) {
     $('.special-effect-10').addClass('animated rubberBand');
   }, {offset: '50%'}); 
-  
+
+  $('.special-effect-11').waypoint(function (direction) {
+    $('.special-effect-11').addClass('animated rubberBand');
+  }, {offset: '50%'}); 
+
+  $('.special-effect-12').waypoint(function (direction) {
+    $('.special-effect-12').addClass('animated rubberBand');
+  }, {offset: '50%'}); 
+
 });
