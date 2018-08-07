@@ -95,4 +95,7 @@ $(document).ready(function() {
     $('.special-effect-12').addClass('animated rubberBand');
   }, {offset: '50%'}); 
 
+  $('.special-effect-13').waypoint(function (direction) {
+    $('.special-effect-13').addClass('animated rubberBand');
+  }, {offset: '50%'}); 
 });
