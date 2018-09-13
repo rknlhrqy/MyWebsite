@@ -258,7 +258,8 @@ h3:after {
 .special-effect-14,
 .special-effect-15,
 .special-effect-16,
-.special-effect-17 {
+.special-effect-17,
+.special-effect-18 {
   opacity: 0;
 }
 
@@ -278,7 +279,8 @@ h3:after {
 .special-effect-14.animated,
 .special-effect-15.animated,
 .special-effect-16.animated,
-.special-effect-17.animated {
+.special-effect-17.animated,
+.special-effect-18.animated {
   opacity: 1;
 }
 

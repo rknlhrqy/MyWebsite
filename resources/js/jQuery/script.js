@@ -114,5 +114,9 @@ $(document).ready(function() {
   $('.special-effect-17').waypoint(function (direction) {
     $('.special-effect-17').addClass('animated rubberBand');
   }, {offset: '50%'}); 
-    
+
+  $('.special-effect-18').waypoint(function (direction) {
+    $('.special-effect-18').addClass('animated rubberBand');
+  }, {offset: '50%'}); 
+ 
 });
