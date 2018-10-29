@@ -118,5 +118,16 @@ $(document).ready(function() {
   $('.special-effect-18').waypoint(function (direction) {
     $('.special-effect-18').addClass('animated rubberBand');
   }, {offset: '50%'}); 
- 
+
+  $('.special-effect-19').waypoint(function (direction) {
+    $('.special-effect-19').addClass('animated rubberBand');
+  }, {offset: '50%'}); 
+
+  $('.special-effect-20').waypoint(function (direction) {
+    $('.special-effect-20').addClass('animated rubberBand');
+  }, {offset: '50%'}); 
+    
+  $('.special-effect-21').waypoint(function (direction) {
+    $('.special-effect-21').addClass('animated rubberBand');
+  }, {offset: '50%'}); 
 });
